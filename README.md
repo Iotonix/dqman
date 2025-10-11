@@ -1,6 +1,6 @@
-![Book "Data Quality for Software Engineers"(/assets/images/DQ_Book_Banner.png "DQ 4 SW Engineers Banner")
+[![Book Data Quality for Software Engineers](https://drive.google.com/file/d/1P1wdzc0lfZ_MFwKTf8cRtkeEgoWs0FZJ/view?usp=sharing)](https://dqman.org)
 
-# GitHub Repository: code examples for the book "Data Quality for Software Engineers"
+# Code Examples for the Book 
 ## General information
 - The book is open-source. You can download it here: [Download Page](https://sites.google.com/view/dq4swe/home)
 - The repository contains most of the code examples in the book.
@@ -9,8 +9,8 @@
 
 ## Contact
 We are happy to hear from you. Ideas, code improvements, and other contributions are welcome!
-- Richard Petrasch <richardroland2004@gmail.com>
-- Roland Petrasch <roland.petrasch@gmail.com>
+- [Richard Petrasch](mailto:richardroland2004@gmail.com)
+- [Roland Petrasch](mailto:roland.petrasch@gmail.com)
 
 ## Repo structure
 - We use different programming languages and frameworks so in the future we will probably split up the repo.
