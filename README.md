@@ -1,4 +1,4 @@
-[![Book Data Quality for Software Engineers](https://drive.google.com/file/d/1P1wdzc0lfZ_MFwKTf8cRtkeEgoWs0FZJ/view?usp=sharing)](https://dqman.org)
+[![Book Data Quality for Software Engineers](assets/images/DQ_Book_Banner.png)](https://dqman.org)
 
 # Code Examples for the Book 
 ## General information
