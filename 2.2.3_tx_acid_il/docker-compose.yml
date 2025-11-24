@@ -1,8 +1,8 @@
 services:
-  dq_postgres_audit:
+  dq_postgres:
     image: postgres:latest
-    container_name: dq_postgres_audit
-    restart: "no"  # unless-stopped
+    container_name: dq_postgres
+    restart: "no"
     environment:
       POSTGRES_USER: dquser
       POSTGRES_PASSWORD: dqpassword

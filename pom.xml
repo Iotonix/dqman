@@ -56,12 +56,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>gateway</module>
-        <module>account</module>
-        <module>customer</module>
-        <module>model</module>
-        <module>playground</module>
-
         <module>1.4.1.3_QbD</module>
         <module>1.4.2_dq_dimensions</module>
         <module>1.4.2_dq_dimension_traceability</module>
