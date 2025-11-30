@@ -47,7 +47,7 @@ Before running the script, ensure you have the following installed:
 
 Ensure the Ollama service is running in the background, then execute the script:
 
-python main.py
+`python main.py`
 
 ## **What Can Go Wrong?**
 
