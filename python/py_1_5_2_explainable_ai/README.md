@@ -25,24 +25,23 @@ Before running the script, ensure you have the following installed:
 
 1. **Set up your Virtual Environment** (if not already active):  
    \# Create the venv  
-   python \-m venv .venv
+   `python -m venv .venv`
 
    \# Activate the venv (Windows)  
-   .venv\\Scripts\\activate
+   `.venv\\Scripts\\activate`
 
    \# Activate the venv (Mac/Linux)  
-   source .venv/bin/activate
+   `source .venv/bin/activate`
 
 2. Install Dependencies:  
    Assuming you have the global requirements file in the parent directory:  
-   pip install \-r ../requirements.txt
-
+   `pip install -r ../requirements.txt`
    *Alternatively, install the specific library required for this module:*  
-   pip install ollama
+   `pip install ollama`
 
 3. Download the LLM:  
    This step is critical. The Python script does not auto-download the model.  
-   ollama pull llama3
+   `ollama pull llama3`
 
 ## **Usage**
 

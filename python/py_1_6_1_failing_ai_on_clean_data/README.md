@@ -35,18 +35,19 @@ Because Region D only had one training example (Product 'c'), the model learns a
 
 Ensure you have the required dependencies installed (PyTorch, pandas, scikit-learn, shap).
 
-\# Install dependencies (if not using the global requirements.txt)  
-pip install torch pandas scikit-learn shap tensorflow
+### Install dependencies (if not using the global requirements.txt)
+
+`pip install torch pandas scikit-learn shap tensorflow`
 
 ### **Running the Standard Experiment**
 
-python main\_pytorch.py
+`python main_pytorch.py`
 
 *Observe the output for "Analysis of Failure". Note how Region D has a massive error.*
 
 ### **Running the Explainable AI (XAI) Experiment**
 
-python main\_pytorch\_shap.py
+`python main_pytorch_shap.py`
 
 *This will calculate SHAP values. Look for the "FAILURE Analysis" section in the logs to see how the model wrongly weighted the 'Region' feature.*
 

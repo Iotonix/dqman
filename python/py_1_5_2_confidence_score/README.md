@@ -26,21 +26,22 @@ In the context of **Data Quality (DQ)**, relying solely on an AI's raw output is
 
 1. **Clone or download** this repository.  
 2. **Create a virtual environment** (recommended):  
-   python \-m venv .venv  
+   `python -m venv .venv`
    \# Windows  
-   .venv\\Scripts\\activate  
+   `.venv\\Scripts\\activate`
    \# macOS/Linux  
-   source .venv/bin/activate
+   `source .venv/bin/activate`
 
 3. Install dependencies:  
    This script requires Hugging Face Transformers and PyTorch. It also requires sentencepiece for the MarianMT tokenizer.  
-   pip install transformers torch sentencepiece
+   `pip install transformers torch sentencepiece`
+   Ignore this if you  have installed the "global" dependencies defined in `requirements.txt` in the parent folder `dqman/python`
 
 ## **💻 Usage**
 
 Run the main script directly from your terminal:
 
-python main.py
+`python3 main.py`
 
 *Note: On the first run, the script will download the model weights (\~300MB) from the Hugging Face Hub.*
 
@@ -70,8 +71,3 @@ Automated confidence scoring allows us to build **Quality Gates** for AI systems
 
 * **High Confidence:** Pass data through automatically.  
 * **Low Minimum Confidence:** Flag data for human review (Human-in-the-loop), as the risk of hallucination or inaccuracy is high.
-
-## **📄 License**
-
-This project is part of the open-access book Data Quality for Software Engineers.  
-Licensed under CC BY-NC-ND 4.0.
