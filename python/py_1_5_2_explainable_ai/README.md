@@ -25,7 +25,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Set up your Virtual Environment** (if not already active):  
    \# Create the venv  
-   `python -m venv .venv`
+   ```python -m venv .venv```
 
    \# Activate the venv (Windows)  
    `.venv\\Scripts\\activate`
