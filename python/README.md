@@ -1,4 +1,4 @@
-# About this Python Examples
+# About the Python Examples
 
   **Towards Data Quality Excellence:** AI-ready data, reliable business intelligence, optimized operations & trustworthy decisions.
 
