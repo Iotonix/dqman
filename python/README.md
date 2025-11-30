@@ -2,7 +2,8 @@
 
   **Towards Data Quality Excellence:** AI-ready data, reliable business intelligence, optimized operations & trustworthy decisions.
 
-## TLDR
+<!-- markdownlint-disable-next-line MD026 -->
+## TLDR;
 
 ### **Prerequisites**
 
